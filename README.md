@@ -1,13 +1,68 @@
-# React + Vite
+# Anime Recommendation Generator 🎌✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app built with React and the Jikan API that recommends anime based on your selected genre, season, year, and number of desired results.
 
-Currently, two official plugins are available:
+## 📺 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View the app live on Netlify ](https://reactanimerecommender.netlify.app/recommend)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-Sba
+## 🛠️ Technologies Used
+
+- **React** — Frontend framework
+- **React Router DOM** — Page navigation
+- **Jikan API** — Anime data from MyAnimeList
+- **HTML/CSS** — Styling and structure
+- **JavaScript** — Core functionality
+- **Netlify / GitHub Pages** — Deployment
+- **Vite** — Development build tool
+
+---
+
+## 📦 Features
+
+- 🎭 Choose an anime **genre** from a live dropdown.
+- 📅 Select a **season** and **year** to filter recommendations.
+- 🔢 Pick how many anime you'd like to get (1–10).
+- 🎲 Randomly selects a number of anime from the matching results.
+- 🎨 Responsive, card-style layout with score color indicators (green = good, red = meh).
+
+
+---
+
+## 🧩 Approach
+
+- UI structured into two React pages: **Home** and **Recommend**.
+- Dropdowns are dynamically populated with values fetched from Jikan API.
+- Anime recommendations are randomized and non-repeating based on filters.
+- The layout adjusts for both small and large numbers of results.
+
+---
+
+## 🚀 Usage Instructions
+
+1. Visit the live site.
+2. On the home page, click **Start**.
+3. Use the dropdowns to select:
+   - A **genre**
+   - A **year**
+   - A **season** (Winter, Spring, Summer, Fall)
+   - The **number of anime** to be recommended
+4. Click **Get Recommendations** to display results.
+5. Review the anime cards (green scores = solid picks).
+
+---
+
+## 🗂 GitHub Repo
+
+👉 [GitHub Repo](https://github.com/mahadSiad3/React-Sba)
+
+> Replace with your actual GitHub repo URL.
+
+---
+
+## 👨‍💻 Author
+
+Created by Mahad Siad.
+
